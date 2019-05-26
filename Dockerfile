@@ -3,6 +3,6 @@ ENV NODE_ENV production
 RUN apk --update add python make gcc g++ git libuv bash curl tar bzip2 \
   && mkdir -p /root \
   && mkdir -p /app \
-  && npm install -g npm@4 \
+  && npm install -g npm@6.9.0 \
   && npm install -g node-gyp \
   && node-gyp install
