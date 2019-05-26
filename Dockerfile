@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:4.8.3
+FROM mhart/alpine-node:8.15.1
 ENV NODE_ENV production
 RUN apk --update add python make gcc g++ git libuv bash curl tar bzip2 \
   && mkdir -p /root \
